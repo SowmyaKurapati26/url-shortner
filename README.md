@@ -53,8 +53,7 @@ discord-url-shortener/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/discord-url-shortener.git
-cd discord-url-shortener
+git clone https://github.com/SowmyaKurapati26/url-shortner.git
 ````
 
 ### 2. Install Dependencies
@@ -68,8 +67,8 @@ npm install
 ```env
 DISCORD_TOKEN=your_discord_bot_token
 CLIENT_ID=your_discord_client_id
-MONGO_URI=mongodb://127.0.0.1:27017/urlshortener
-BASE_URL=http://localhost:PORT
+MONGO_URI=mongodb_url
+BASE_URL=req_base_url
 ```
 
 ### 4. Register Slash Commands
@@ -99,18 +98,10 @@ In your Discord server, run:
 Bot replies:
 
 ```
-🔗 Short URL: http://localhost:8000/abc123
+🔗 Short URL: http://localhost:8000/abc123 (sample)
 ```
 
 Visit `http://localhost:8000/abc123` in your browser → Redirects to original long URL.
-
----
-
-## 🌍 Deployment Tips
-
-* Deploy the `server/` folder on [Render](https://render.com) or [Railway](https://railway.app).
-* Use a custom domain like `https://short.ly` and update your `.env` file's `BASE_URL`.
-* Optionally add analytics, click tracking, or a web dashboard.
 
 ---
 
