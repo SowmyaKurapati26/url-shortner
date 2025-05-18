@@ -1,5 +1,5 @@
 {
-  "name": "discord-url-shortener",
+  "name": "url-shortener",
   "type": "module",
   "dependencies": {
     "discord.js": "^14.19.3",
